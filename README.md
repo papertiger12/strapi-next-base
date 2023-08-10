@@ -1,3 +1,13 @@
+## Install
+- `pnpm`: this repo uses [pnpm](https://pnpm.io/) for package management
+- `node`: this repo requires [node.js](https://nodejs.org/en), and makes use of `nvm`
+
+To start run the following commands:
+```bash
+pnpm i
+pnpm dev
+```
+
 ## What's inside?
 
 This Turborepo includes the following packages/apps:
