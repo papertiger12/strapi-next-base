@@ -10,22 +10,22 @@
     "lint": "eslint \"**/*.ts*\""
   },
   "dependencies": {
-    "flowbite": "^1.8.1",
-    "flowbite-react": "^0.5.0"
+    "flowbite": "^2.2.0",
+    "flowbite-react": "^0.7.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "eslint": "^7.32.0",
     "eslint-config-custom": "workspace:*",
-    "next": "13.4.12",
+    "next": "14.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tsconfig": "workspace:*",
     "typescript": "^4.5.2"
   },
   "peerDependencies": {
-    "next": "13.4.12",
+    "next": "14.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   }

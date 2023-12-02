@@ -2,7 +2,7 @@ export const getCmsData = async (route: string, preview?: boolean) => {
   try {
     let url = `${process.env.CMS_BASE_URL}/api/${route}`;
     if (preview) {
-      url += "?publicationState=preview";
+      url += '?publicationState=preview';
     }
     const posts = await fetch(url, {
       headers: {

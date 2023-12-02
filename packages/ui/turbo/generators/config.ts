@@ -15,15 +15,15 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
     ],
     actions: [
       {
-        type: 'add',
-        path: 'src/{{pascalCase name}}.tsx',
-        templateFile: 'templates/component.hbs',
+        type: 'addMany',
+        templateFiles: 'templates/**/*',
+        destination: 'src',
       },
       {
         type: 'append',
-        path: 'index.tsx',
+        path: 'src/index.tsx',
         pattern: /(\/\/ component exports)/g,
-        template: 'export * from "./{{pascalCase name}}";',
+        template: "export * from './{{pascalCase name}}';",
       },
     ],
   });
